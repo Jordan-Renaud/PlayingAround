@@ -6,7 +6,11 @@ namespace PlayingAround
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float myFloatValue = 10;
+            int myIntValue = (int) myFloatValue;
+            Console.WriteLine("myIntValue is " + myIntValue);
+            
+
         }
     }
 }
